@@ -84,8 +84,9 @@ Start NOW for configuration:
 	net start DHCPServer
 
 GPO:  
-Verwaltung  
-Bei Ueberpruefen der Serveroptionen gleich Router-Name Server01 rein
+
+	Verwaltung  
+	Bei Ueberpruefen der Serveroptionen gleich Router-Name Server01 rein
 
 DNS:
 . Test
@@ -109,25 +110,25 @@ USER, ORDNER:
 
 	neu C:\Daten und rekursiv und auch Backup
 
-C
- |_Daten	
- | | Users
- | | |_Profile: G.jeder:     voll
- | |_Software:  G.admins:    voll
- | |            G.auth.user: voll 
- | |_Team
- | |_Verwaltung: 
- |_Backup
+	C
+	 |_Daten	
+	 | | Users
+	 | | |_Profile: G.jeder:     voll
+	 | |_Software:  G.admins:    voll
+	 | |            G.auth.user: voll 
+	 | |_Team
+	 | |_Verwaltung: 
+	 |_Backup
    
 
 Gleich Shares:  
 
 	erweiterte, Profile: jeder voll (jeder soll selbst)  
-	User: 	Profilpfad \\  
-	SW: 	- entfernen Auth  
-		- Admins rein mit Voll (damit ich vom Netz aus was aendern kann)  
+	User: 		Profilpfad \\  
+	SW: 		- entfernen Auth  
+			- Admins rein mit Voll (damit ich vom Netz aus was aendern kann)  
 	Team: 		Achtung, bitte warten, erst:  
-	Verwaltung: 	Neue OU Office und Kunden  
+	Verwaltung: 	Neue OU Office + Kunden  
 	Neue Gruppe: 	Verwaltung. 1. Haken raus, 2. + 3. rein. Keep. Global User lauft nicht ab und (kann sich einloggen?)  
 	Kunden 3: 	Nein,  2 ja,  3 ja,  4 nein.  
 	Team:		Kein Voll, aber aendern + lesen.  
