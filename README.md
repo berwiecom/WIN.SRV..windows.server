@@ -60,6 +60,7 @@ Jetzt bei Extern DNS auf 172.16.33.1
 	DHCP, NW-Richtlinie  
 
 Lease
+
 	8 Tage  
 	statusfrei  
 	akt  
