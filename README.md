@@ -32,11 +32,13 @@ Hostname:
 	Restart-Computer
 
 
-NICs:  
+NICs:
+
 	Nachm dcpromo.exe vorm DHCP u DNS nochmal statt 127... die 172.16.33.1 eingeben.
 
 
-DCPromo:  
+DCPromo:
+
 	Neue Domaene in GesamtStruktur (DomaenenForrest)
 	DOMLAP.local
 	"Ja" bei "Unterschiedl. IPs"
@@ -59,43 +61,52 @@ Jetzt bei Extern DNS auf 172.16.33.1
 	https://technet.microsoft.com/en-us/library/cc754634 .................................. # R & RAS  
 	DHCP, NW-Richtlinie  
 
-Lease:  
+Lease:
+
 	8 Tage  
 	statusfrei  
 	akt  
 
-DHCP:  
+DHCP:
+
 	MAC aus VirtualBox Client-Einstellungen Ubuntu (nicht im Linux)
+	
 Role install:
 
 	dism /enable-feature /featurename:DHCPServer /online
+	
 Change Service:  
+
 	sc config DHCPServer start= auto		# Eric Tierling: 389
+	
 Start NOW for configuration:  
 
 	net start DHCPServer
 
-	GPO
+GPO:  
 Verwaltung  
 Bei Ueberpruefen der Serveroptionen gleich Router-Name Server01 rein
 
-DNS
- Test
+DNS:
+. Test
   ```
   ipconfig -all
   ```
   Nur 116.16.33 - kein alternativer DNS
 
 Bed. Weiterl.
+
 	Dienste > DNS-Dom> BFI 10.10.10.8 >> Dann gibt er FQDN selbst an.
 	(Google 8.8.8.8 ginge auch...)
 
 RAS:  
+
 	Verwaltung
 	NAT
 	Fast nix einstellen
 
 USER, ORDNER:
+
 	neu C:\Daten und rekursiv und auch Backup
 
 C
@@ -110,19 +121,18 @@ C
    
 
 Gleich Shares:  
+
 	erweiterte, Profile: jeder voll (jeder soll selbst)  
 	User: 	Profilpfad \\  
 	SW: 	- entfernen Auth  
-			- Admins rein mit Voll (damit ich vom Netz aus was aendern kann)  
+		- Admins rein mit Voll (damit ich vom Netz aus was aendern kann)  
 	Team: 		Achtung, bitte warten, erst:  
 	Verwaltung: 	Neue OU Office und Kunden  
-	Neue Gruppe: 	Verwaltung. Erster Haken raus, 2. und 3. rein. Lass ich. Globaler User lauft nicht ab und (kann sich einloggen?)  
+	Neue Gruppe: 	Verwaltung. 1. Haken raus, 2. + 3. rein. Keep. Global User lauft nicht ab und (kann sich einloggen?)  
 	Kunden 3: 	Nein,  2 ja,  3 ja,  4 nein.  
-	Team:		Kein Voll, aber aendern und lesen.  
-	Vorlagen: 	Admins haben Minus. Domaenennutzer: Aendern und lesen.  
+	Team:		Kein Voll, aber aendern + lesen.  
+	Vorlagen: 	Admins haben Minus. Domaenennutzer: Aendern + lesen.  
 	Backup: 	Jeder raus; ansonsten Voll  
-
-Sicherung Feature
 
 FTP jetzt  
 	Sicherheit: Vertrauensw. XXX ftp://...2008
