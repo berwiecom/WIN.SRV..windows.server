@@ -51,14 +51,14 @@ Jetzt bei Extern DNS auf 172.16.33.1
 Role, Feature
 	https://duckduckgo.com/?q=add-windowsfeature+role&t=ffab&ia=web
 	>
-	https://technet.microsoft.com/en-us/library/cc754923(v=ws.11).aspx                      # Role vs Feature  
-	https://technet.microsoft.com/en-us/library/hh831809(v=ws.11).aspx#BKMK_installwps      # Syntax  
-	https://www.petri.com/windows-features-with-powershell-part-2				# Beispiel-Script  
-	https://technet.microsoft.com/en-us/library/cc794771(v=ws.10).aspx			# Administering DNS Server  
-	https://technet.microsoft.com/en-us/library/hh831809(v=ws.11).aspx#BKMK_batch		# Install Roles  
-	https://technet.microsoft.com/de-de/windowsserver/bb310558.aspx				# !!!!!!!!!!! all Roles unten  
-	https://technet.microsoft.com/en-us/library/68ce4f7c-b8e2-4b1a-9909-9674f1738e7c        # Network Policy, Access Services  
-	https://technet.microsoft.com/en-us/library/cc754634                                    # R & RAS  
+	https://technet.microsoft.com/en-us/library/cc754923(v=ws.11).aspx .................... # Role vs Feature  
+	https://technet.microsoft.com/en-us/library/hh831809(v=ws.11).aspx#BKMK_installwps .... # Syntax  
+	https://www.petri.com/windows-features-with-powershell-part-2 ......................... # Beispiel-Script  
+	https://technet.microsoft.com/en-us/library/cc794771(v=ws.10).aspx .................... # Administering DNS Server  
+	https://technet.microsoft.com/en-us/library/hh831809(v=ws.11).aspx#BKMK_batch ......... # Install Roles  
+	https://technet.microsoft.com/de-de/windowsserver/bb310558.aspx ....................... # !!!!!!!!!!! all Roles unten  
+	https://technet.microsoft.com/en-us/library/68ce4f7c-b8e2-4b1a-9909-9674f1738e7c ...... # Network Policy, Access Services  
+	https://technet.microsoft.com/en-us/library/cc754634 .................................. # R & RAS  
 	DHCP, NW-Richtlinie  
 
 Lease:
