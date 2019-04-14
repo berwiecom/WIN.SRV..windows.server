@@ -1,6 +1,8 @@
 # WIN.SRV
 ## Windows Server Stuff
 
+You live Linux butt (sic!) sometimes meet a window ...
+
 ### Windows: Server 2008R2 + Client Windows7 + Client Ubuntu
 
 - Server 2008 R2 as Domain Controller for
