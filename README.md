@@ -60,7 +60,7 @@ Role, Feature
 	https://technet.microsoft.com/de-de/windowsserver/bb310558.aspx ....................... # !!!!!!!!!!! all Roles unten  
 	https://technet.microsoft.com/en-us/library/68ce4f7c-b8e2-4b1a-9909-9674f1738e7c ...... # Network Policy, Access Services  
 	https://technet.microsoft.com/en-us/library/cc754634 .................................. # R & RAS  
-	DHCP, NW-Richtlinie  
+	DHCP, NW-Richtlinie 
 
 Lease:
 
