@@ -49,6 +49,7 @@ DCPromo:
 Jetzt bei Extern DNS auf 172.16.33.1
 
 Role, Feature
+
 	https://duckduckgo.com/?q=add-windowsfeature+role&t=ffab&ia=web
 	>
 	https://technet.microsoft.com/en-us/library/cc754923(v=ws.11).aspx .................... # Role vs Feature  
