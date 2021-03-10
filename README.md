@@ -1,7 +1,8 @@
 # WIN.SRV
 ## Windows Server Stuff
 
-You live Linux butt (sic!) sometimes meet a window ...
+You only know &#128039; penguins butt (sic!) sometimes someone begs you to look into their &num; windows.
+
 
 ### Windows: Server 2008R2 + Client Windows7 + Client Ubuntu
 
