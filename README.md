@@ -1,6 +1,9 @@
 # WIN.SRV
 ## Windows Server Stuff
 
+![Pic: Cables, cables, cables](https://repository-images.githubusercontent.com/180580539/682de172-5774-4168-b20f-b62d85668456)  
+<sub><sub>Free pic from https://unsplash.com/@MartijnBaudoin</sub></sub>
+
 You only know &#128039; penguins butt (sic!) sometimes someone begs you to look into their &num; windows.
 
 
